@@ -1,0 +1,2 @@
+# yara-gui
+libyara frontend
