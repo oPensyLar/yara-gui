@@ -31,7 +31,7 @@ namespace DashBoard
             // accountWin.Show();
         }
 
-        private void fn3(object sender, RoutedEventArgs e)
+        private void back_Btn_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
             // MyAccount accountWin = new MyAccount();

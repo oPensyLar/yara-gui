@@ -107,6 +107,7 @@
                 </RadialGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
+        <Button x:Name="back_Btn" Content="But&#x9;ton" HorizontalAlignment="Left" Margin="23,8,0,0" VerticalAlignment="Top" Width="60" Height="60" Template="{DynamicResource Back_Button}" Cursor="Arrow" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="back_Btn_Click"/>
         <Button x:Name="close_Btn" Click="btnClose" Content="Button" HorizontalAlignment="Left" Margin="923.2,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Template="{DynamicResource Close_Button}"/>
         <Grid x:Name="StartForm_grid" Margin="254.2,191.46,296,24.192" Grid.Row="1"/>
         <Grid x:Name="DashBoard_grid" Margin="5,76,-9,20" Grid.RowSpan="2" Opacity="1">

@@ -162,28 +162,16 @@ namespace DashBoard
                 }
         }
 
+
         private void close_Btn_Click(object sender, System.Windows.RoutedEventArgs e)
         {
         	this.Close();
         }
 
+
         private void back_Btn_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-			if(back_true)
-			{
-					try{
-						updateThread.CancelAsync();
-						client.Close();
-						back_true = false;
-						StartForm_grid.IsEnabled = true;
-						
-                		StartForm_grid.Opacity = 1;
-						DashBoard_grid.Opacity = 0;
-					} catch (Exception error)
-					{
-						MessageBox.Show(error.Message);
-					}
-			}
+            this.Hide();
         }
     }
 }

@@ -29,6 +29,13 @@ namespace DashBoard
             this.Hide();
         }
 
+
+        private void back_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+        }
+
+
         private void BtnCompleteScan(object sender, RoutedEventArgs e)
         {
             this.Hide();
